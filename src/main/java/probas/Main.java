@@ -27,5 +27,7 @@ public class Main {
                 error = true;
             }
         } while (error);
+        
+        teclado.close();
     }
 }
